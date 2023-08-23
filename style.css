@@ -572,14 +572,40 @@ border: 2px solid #3EC1D5;
 }
 
 /* cta */
-#call-area p, #call-area #call-btn{
+ #call-area  p{
+  
+  width: 100%;
   font-size: 14px;
+  line-height: 17px;
+  padding-bottom: 10px;
+  display: inline-block;
+  box-sizing: content-box;
+  height: 40px;
   letter-spacing: 0;
+ 
+  
+ }
+#call-area #call-btn{
+  font-size: 14px;
+ display: inline-block;
+  padding-bottom: 10px;
   margin: 0;
-  width: 50%;
+  width: 50%
 }
 
+/* contact */
+#contact-area .main-title{
+  margin-top: 30px;
+  font-size: 25px;
+}
 
+.contact-box{
+  border: none;
+  margin-bottom: 0;
+}
 
+#btn-estilo{
+  margin-bottom: 20px;
+}
 
 }
